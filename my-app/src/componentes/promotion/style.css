@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+.promotion-banner {
+    cursor: pointer;
+    font-family: 'Quantico', sans-serif;
+    background-image: url('../../assets/images/bg-promotion.svg');
+    color: #0F0915;
+    max-width: 936px;
+    max-height: 119px;
+    display: grid;
+    grid-template-columns: auto 1px repeat(2, auto);
+    grid-template-rows: 85px auto;
+    column-gap: 24px;
+    padding: 16px 25px;
+    margin-bottom: 40px;
+    
+}
+.promotion-banner > img {
+    position: relative;
+    bottom: 60px;
+}
+.promotion-banner h1 {
+    font-size: 40px;
+    font-family: 'Quantico', sans-serif;
+}
+
+.promotion-banner h1,
+.promotion-banner_timer-container h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.promotion-banner_coupon-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promotion-banner_coupon-foot svg {
+    margin-right: 10px;
+}
+
+.promotion-banner_line {
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    height: 46px;
+    opacity: 0.2;
+    border: 1px solid #F294D8;
+}
+
+.timeIcon {
+    margin-top: 0;
+}
+

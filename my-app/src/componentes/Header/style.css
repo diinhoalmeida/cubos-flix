@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 104px;
+    background: #0F1C26;
+}
+
+.divs-header {
+    display: flex;
+    align-items: center;
+}
+.item-conainter-img {
+    width: 56px;
+    height: 56px;
+}

@@ -1,0 +1,22 @@
+.search-container {
+    display: flex;
+}
+
+.search-container__input {
+    all: unset;
+    
+    font-size: 15px;
+    background: #171B1E;
+    height: 56px;
+    width: 456px;
+}
+
+.search-container__icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #171B1E;  
+    height: 56px; 
+    width: 56px;
+}

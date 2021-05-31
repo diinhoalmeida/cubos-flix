@@ -1,0 +1,28 @@
+.footer-movies__generos {
+    max-width: 936px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+    gap: 24px;
+  }
+
+.footer-movies__generos .theButton {
+    all: unset;
+    width: 170px;
+    background-color: #FFF;
+    outline: 1px solid gray;
+    text-align: center;
+    padding: 12px 8px 6px 8px;
+}
+
+.footer-movies__generos .theButton.teste {
+    all: unset;
+    width: 170px;
+    background-color: rebeccapurple;
+    outline: 1px solid gray;
+    text-align: center;
+    padding: 12px 8px 6px 8px;
+      
+}
+
+
+

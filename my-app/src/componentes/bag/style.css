@@ -1,0 +1,98 @@
+.bag-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 312px;
+    height: max-content;
+    background-color: rgb(23,27,30);
+    align-items: center;
+}
+
+.bag-box__top {
+    display: flex;
+    width: 312px;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #A785ED;
+}
+
+.bag-box__carrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 312px;
+    height: 100%;
+}
+.bag-box__footer {
+    display: flex;
+    flex-direction: column;
+}
+.bag-box_footer_input {
+    display: flex;
+}
+.couponIcon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bag-box__footer {
+    display: flex;
+    width: 312px;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;       
+}
+.bag-box_footer_input input{
+    padding: 5px;
+}
+
+.bag_movie {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.bag_movie_info {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "img details actions"; 
+    gap: 8px;
+}
+.bag_movie_info .movieImg {
+    grid-area: img;
+    width: 45px;
+    height: 65px;
+    margin-right: 13px;
+}
+.bag_movie_details {
+    grid-area: details;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    justify-content: center;
+}
+
+.bag_movie_actions {
+    grid-area: actions;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.bag_movie_actions svg:hover {
+    background: linear-gradient(0deg, rgba(107, 107, 107, 0.37), rgba(107, 107, 107, 0.37));
+}
+
+.bag_movie_actions svg:active {
+    background: linear-gradient(0deg, rgba(191, 191, 191, 0.37), rgba(191, 191, 191, 0.37));
+}
+
+.bag_movie_actions svg {
+    cursor: pointer;
+}
